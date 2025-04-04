@@ -1,0 +1,9 @@
+# Build output
+dist/
+
+# Node modules
+node_modules/
+
+# Configuration and meta
+.env
+*.config.js

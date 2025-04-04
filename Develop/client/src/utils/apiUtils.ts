@@ -1,7 +1,7 @@
 import axios from "axios";
 import AuthService from "./auth";
 
-const API = axios.create({ baseURL: "/api" });
+const API = axios.create({ baseURL: "http://localhost:3001" });
 
 API.interceptors.request.use((config) => {
   const token = AuthService.getToken();
